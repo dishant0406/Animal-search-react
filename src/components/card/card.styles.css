@@ -1,18 +1,52 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  background-color: #95dada;
-  border: 1px solid grey;
-  border-radius: 5px;
-  padding: 25px;
+
+  border: 0.3rem solid #D84727;
+  border-radius: 0.2rem;
+  padding: 1.5rem;
+  height: 25rem;
+  width: 17rem;
   cursor: pointer;
   align-items: center;
+  justify-content: flex-start;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  box-shadow: 2px 2px 13px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 13px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 13px -2px rgba(0,0,0,0.75);
+position: relative;
+background-color: #CDEDF6;
+
+}
+.card-container h1{
+  position: absolute;
+  max-width: 15rem ;
+  font-size: 1.5rem;
+  bottom: 5rem;
+}
+.card-container p{
+  position: absolute;
+  bottom: 1rem;
+}
+.card-container .img{
+  border-radius: 0.2rem;
+  height: 13rem;
+  width: 13rem;
+  border: solid #042A2B 0.3rem;
+  box-shadow: 2px 2px 13px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 13px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 13px -2px rgba(0,0,0,0.75);
+  
+
 }
 
 .card-container:hover {
   transform: scale(1.05);
+}
+
+body{
+  background-color: #042A2B;
 }

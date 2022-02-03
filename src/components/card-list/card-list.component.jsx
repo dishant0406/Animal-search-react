@@ -7,7 +7,7 @@ export const CardList = props => {
 
   return <div className='card-list'>
     {
-    props.PersonNames.map(nM => <Card key={nM.artist_href} nM={nM}/>)
+    props.PersonNames.map((nM, idx) => <Card key={idx+1} nM={nM}/>)
     }
   </div>
 
