@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Animal-search-react/static/css/main.016928b6.css",
+    "main.js": "/Animal-search-react/static/js/main.a80e98d5.js",
+    "static/js/787.7f320c1d.chunk.js": "/Animal-search-react/static/js/787.7f320c1d.chunk.js",
+    "index.html": "/Animal-search-react/index.html",
+    "main.016928b6.css.map": "/Animal-search-react/static/css/main.016928b6.css.map",
+    "main.a80e98d5.js.map": "/Animal-search-react/static/js/main.a80e98d5.js.map",
+    "787.7f320c1d.chunk.js.map": "/Animal-search-react/static/js/787.7f320c1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.016928b6.css",
+    "static/js/main.a80e98d5.js"
+  ]
+}
